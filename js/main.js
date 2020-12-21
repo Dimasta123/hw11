@@ -5,7 +5,7 @@ async function getRandomChinese(length) {
     return new Promise(result => {
       setTimeout(
         () => {
-          res(generateChineseWord());
+          result(generateChineseWord());
         },
         length * 50,
       );
